@@ -6,7 +6,7 @@
 # tho offline. Requires you to have a bing api key. Get one free at
 # http://www.bing.com/developers/ (5000requests/month)
 #
-MICROSOFT_BING_API_KEY = "FGHJKLJHGFCVHBJKLJHGFCVHBJNK"
+MICROSOFT_BING_API_KEY = "eYRmsuL1o40ue4fXyQYk70nPApO+eVuuQ+UpgckWvJM="
 #
 # Copyright (c) 2012 Tim Jansson
 # All rights reserved.
@@ -130,7 +130,7 @@ while current_ip <= to_addr
 
   # API
   if !opts[:disable_bing]
-    url = "https://api.datamarket.azure.com/Data.ashx/Bing/Search/v1/Web?Query='ip:#{current_ip}'&$top=50&$format=Atom"
+    url = "https://api.datamarket.azure.com/Data.ashx/Bing/Search/v1/Web?Query='ip:#{current_ip}'&$top=200&$format=Atom"
     uri = URI.parse(url)
 
     http = Net::HTTP.new(uri.host, uri.port)

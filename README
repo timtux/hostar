@@ -1,1 +1,19 @@
-hostar.rb - Probe DNS and Bing API to discover websites/hosts in a IP-range even tho offlien.
+hostar.rb - Probe DNS and Bing API to discover websites/hosts in a IP-range even tho offline.
+
+myBox:hostar tim$ ./hostar.rb -d ec2-50-18-252-211.us-west-1.compute.amazonaws.com
+--------------------------------------------------------------------------------
+|     IP-Address |                                   Hostname |         Source |
+--------------------------------------------------------------------------------
+|  50.18.252.211 |ec2-50-18-252-211.us-west-1.compute.amazonaws.com |    Reverse DNS |
+|  50.18.252.211 |                                   digg.com |            API |
+|  50.18.252.211 |                             about.digg.com |            API |
+|  50.18.252.211 |                                 m.digg.com |            API |
+|  50.18.252.211 |                         www.evangelcog.org |            API |
+|  50.18.252.211 |                        www.lee-lawfirm.com |            API |
+|  50.18.252.211 |                       www.fbcstcharles.org |            API |
+|  50.18.252.211 |                         www.bfcsebring.com |            API |
+|  50.18.252.211 |                www.northshorechristian.org |            API |
+|  50.18.252.211 |                         www.sexyhair.co.uk |            API |
+--------------------------------------------------------------------------------
+|                         IP Count: 1 |                     Hostname Count: 10 |
+--------------------------------------------------------------------------------
